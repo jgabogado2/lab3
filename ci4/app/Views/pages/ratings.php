@@ -1,5 +1,4 @@
 <style>
-
     body {
         background: url(b7.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -9,31 +8,6 @@
         background-color: white;
         }
 </style>
-</head>
-
-<body class="body1">
-    <nav>
-        <div class="logo">
-            <h4 class="Starbikes"><a href="Index.php">daniel</a></h4>
-        </div>
-        <ul class="nav-links">
-            <li>
-                <a href="Index.php">Home</a>
-            </li>
-            <li>
-                <a href="Index2.php">Hobbies</a>
-            </li>
-            <li>
-                <a href="Index3.php">me</a>
-            </li>
-            <li>
-                <a href="Index4.php">res</a>
-            </li>
-        </ul>
-    </nav>
-
-    
-
         <h1 class="hdrtxt1">rate my website!</h1>
         <br>
         <br>
@@ -121,7 +95,7 @@
         </div>
 
         <?php
-        $conn = mysqli_connect("localhost", "webprogmi212", "webprogmi212", "webprogmi212");
+        $conn = mysqli_connect("192.168.150.213", "webprogmi212", "b3ntRhino98", "webprogmi212");
 
         if($conn === false){
             die("ERROR: Could not connect. "
