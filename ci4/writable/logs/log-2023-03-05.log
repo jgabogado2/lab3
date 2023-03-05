@@ -788,3 +788,556 @@ in APPPATH\Controllers\News.php on line 14.
  2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:53:03 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:53:23 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:55:39 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:55:40 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:56:07 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:56:13 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 106.
+ 1 APPPATH\Views\pages\ratings.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 106, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:11:56 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 106.
+ 1 APPPATH\Views\pages\ratings.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 106, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:12:14 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:16:29 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 106.
+ 1 APPPATH\Views\pages\ratings.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 106, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:19:44 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:19:44 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:26:55 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:27:10 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:32:20 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 106.
+ 1 APPPATH\Views\pages\ratings.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 106, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:51:02 --> mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+in APPPATH\Views\pages\ratings.php on line 104.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(): (HY000/1045): Access denied for user \'root\'@\'localhost\' (using password: YES)', 'APPPATH\\Views\\pages\\ratings.php', 104, [...])
+ 2 APPPATH\Views\pages\ratings.php(104): mysqli_connect('localhost', 'root', 'test', 'test')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 6 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:51:19 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:54:08 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:55:50 --> Undefined variable: row
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:55:58 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:56:27 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:56:28 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 18:56:28 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:05:19 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:06:29 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:06:30 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:06:30 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:06:31 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 19:16:46 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 19:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 19:58:19 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 20:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 20:00:28 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 20:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 20:11:17 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 20:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 20:11:18 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:15:11 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 111.
+ 1 APPPATH\Views\pages\ratings.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 111, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 20:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 20:15:20 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 20:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 20:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 20:34:43 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:34:43 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\pages\forms1.php on line 4.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/forms1', [], true)
+ 4 APPPATH\Controllers\Pages.php(23): view('pages/forms1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('forms1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:34:45 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:34:46 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:39:01 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:39:02 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:39:30 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:39:30 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:41:12 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:41:14 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:41:22 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:41:34 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:41:48 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:44:58 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:44:59 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:45:00 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 20:45:01 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:03:52 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 113.
+ 1 APPPATH\Views\pages\ratings.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:12:07 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 113.
+ 1 APPPATH\Views\pages\ratings.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:18:27 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:18:27 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:19:15 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:19:17 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:21 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 113.
+ 1 APPPATH\Views\pages\ratings.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:26 --> Undefined index: name
+in APPPATH\Views\pages\ratings.php on line 113.
+ 1 APPPATH\Views\pages\ratings.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name', 'APPPATH\\Views\\pages\\ratings.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\ratings.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/ratings', [], true)
+ 5 APPPATH\Controllers\Pages.php(23): view('pages/ratings')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view('ratings')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:29 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:30 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:31 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:31 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:32 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:32 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:20:32 --> Call to a member function getNews() on null
+in APPPATH\Controllers\News.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\News->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 21:36:11 --> Call to a member function getGuest() on null
+in APPPATH\Controllers\Guest.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

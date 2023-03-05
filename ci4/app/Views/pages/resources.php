@@ -30,7 +30,7 @@ body{
 <div class="container">
     <div class="center">
       <div class="button">
-        <a href="progbar.php" target="_blank" rel="noopener noreferrer" class="btn2">click here for a progbar</a> 
+        <a href="progbar" target="_blank" rel="noopener noreferrer" class="btn2">click here for a progbar</a> 
     </div>
     </div>
 </div>
@@ -38,7 +38,7 @@ body{
 <div class="container-bottom">
     <div class="center">
       <div class="button">
-        <a href="Index5.php" target="_blank" rel="noopener noreferrer" class="btn2">rate my website!</a> 
+        <a href="ratings" target="_blank" rel="noopener noreferrer" class="btn2">rate my website!</a> 
     </div>
     </div>
 </div>

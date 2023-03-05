@@ -96,18 +96,25 @@
         </div>
 
         <?php
-        $conn = mysqli_connect("localhost", "root", "", "test");
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "test";
+        
+        $conn = mysqli_connect( $servername, $username,  $password,  $dbname);
 
         if($conn === false){
             die("ERROR: Could not connect. "
                 . mysqli_connect_error());
         }
 
-        $name =  $_REQUEST['name'];
-        $email = $_REQUEST['email'];
-        $website =  $_REQUEST['website'];
-        $comment = $_REQUEST['comment'];
-        $gender = $_REQUEST['gender'];
+        
+
+        $name =  $_POST['name'];
+        $email = $_POST['email'];
+        $website =  $_POST['website'];
+        $comment = $_POST['comment'];
+        $gender = $_POST['gender'];
 
         $sql = "INSERT INTO bruh (name, email, website, comment, gender)  VALUES ('$name',
             '$email','$website','$comment','$gender')";
