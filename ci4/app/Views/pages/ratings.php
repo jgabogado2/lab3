@@ -1,4 +1,5 @@
 <style>
+
     body {
         background: url(b7.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -95,7 +96,7 @@
         </div>
 
         <?php
-        $conn = mysqli_connect("192.168.150.213", "webprogmi212", "b3ntRhino98", "webprogmi212");
+        $conn = mysqli_connect("localhost", "root", "", "test");
 
         if($conn === false){
             die("ERROR: Could not connect. "
@@ -108,7 +109,7 @@
         $comment = $_REQUEST['comment'];
         $gender = $_REQUEST['gender'];
 
-        $sql = "INSERT INTO jgabogado_myratings (name, email, website, comment, gender)  VALUES ('$name',
+        $sql = "INSERT INTO bruh (name, email, website, comment, gender)  VALUES ('$name',
             '$email','$website','$comment','$gender')";
 
         if(mysqli_query($conn, $sql)){

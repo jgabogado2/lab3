@@ -13,7 +13,7 @@ body{
     <div class="container">
         <div class="center">
         <div class="button">
-            <a href="myself.php" class="btn1">learn more</a> 
+            <a href="myself" class="btn1">learn more</a> 
         </div>
         </div>
     </div>
