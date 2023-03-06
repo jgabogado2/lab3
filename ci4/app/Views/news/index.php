@@ -1,3 +1,20 @@
+<style>
+body{
+    background: url(images/b7.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h2><?= esc($title) ?></h2>
 <?php if (! empty($news) && is_array($news)): ?>
 
@@ -8,7 +25,7 @@
         <div class="main">
             <?= esc($news_item['body']) ?>
         </div>
-        <p><a href="/github/lab3/ci4/public/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+        <p><a href="/lab3/ci4/public/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
 
     <?php endforeach ?>
 
@@ -19,3 +36,7 @@
     <p>Unable to find any news for you.</p>
 
 <?php endif ?>
+<br>
+<br>
+<br>
+<h1><p><a href="/lab3/ci4/public/news/create">CREATE NEWS</a></p>

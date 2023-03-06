@@ -1,3 +1,20 @@
+<style>
+body{
+    background: url(images/b6.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <h2><?= esc($title) ?></h2>
 
 <?= session()->getFlashdata('error') ?>

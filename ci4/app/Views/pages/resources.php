@@ -35,10 +35,20 @@ body{
     </div>
 </div>
 
-<div class="container-bottom">
+<div class="container">
     <div class="center">
       <div class="button">
-        <a href="ratings" target="_blank" rel="noopener noreferrer" class="btn2">rate my website!</a> 
+        <a href="news" target="_blank" rel="noopener noreferrer" class="btn2">articles</a> 
     </div>
     </div>
 </div>
+
+<div class="container-bottom">
+    <div class="center">
+      <div class="button">
+        <a href="guest" target="_blank" rel="noopener noreferrer" class="btn2">rate my website!</a> 
+    </div>
+    </div>
+</div>
+
+

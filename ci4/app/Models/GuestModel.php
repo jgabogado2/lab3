@@ -1,4 +1,3 @@
-
 <?php
 
 namespace App\Models;
@@ -7,7 +6,7 @@ use CodeIgniter\Model;
 
 class GuestModel extends Model
 {
-    protected $table = 'jgabogado_myratings';
+    protected $table = 'bruh';
 
     protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
 
